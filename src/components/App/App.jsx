@@ -4,12 +4,14 @@ import CardList from '../CardList/CardList';
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <div className="">
-          <CardList />
+      <>
+        <div>
+          <div className="">
+            <CardList />
+          </div>
+          <div>Hello</div>
         </div>
-        <div>Hello</div>
-      </div>
+      </>
     );
   }
 }
