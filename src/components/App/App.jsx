@@ -6,7 +6,7 @@ export default class App extends Component {
     return (
       <div>
         <div className="">
-          <CardList />
+          <CardList /> ewgewg
         </div>
         <div>Hello</div>
       </div>
